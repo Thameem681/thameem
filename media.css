@@ -1,0 +1,6 @@
+.main{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    flex: 50%;
+}

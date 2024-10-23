@@ -1,0 +1,82 @@
+.main{
+    height: 430px;
+    width: 900px;
+    background-color: rgb(139, 23, 139);;
+    background-image:linear-gradient(rgb(247, 17, 247),rgb(184, 123, 184)) url(https://media.discordapp.net/attachments/1291627101220245505/1291632200067842048/bg-hero.jpg?ex=6706bc79&is=67056af9&hm=6d38bfd8bd96256764c5a5f638544b97970ee7d47ee8803df654c294dffdf3d1&=&format=webp&width=742&height=417);
+    
+}
+.container{
+    display: flex;
+    gap: 190px;
+    text-align: center;
+    align-items: center;
+}
+.rw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.row{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(255, 255, 87);
+    display: flex;
+    gap: 10px;
+    
+}
+h1{
+    color: rgb(255, 177, 32);
+}
+
+.row1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: lighter;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button{
+    background-color: rgb(255, 124, 18);
+}
+.col{
+    display: flex;
+}
+.col1{
+    height: 300px;
+    width: 300px;
+    line-height: 30px;
+}
+p{
+    line-height: 20px;
+}
+#button{
+    height: 40px;
+    width: 90px;
+    font-size: small;
+}
+.img{
+    margin-left: 90px;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes: rotate{
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(90deg)}
+    100%  {transform: rotate(180deg)}
+
+
+}

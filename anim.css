@@ -1,0 +1,131 @@
+body{
+background-color: blanchedalmond;
+}
+
+.container{
+    background-color: white;
+    height: 100vh;
+    width: 900px;
+    margin-left: 120px;
+    
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(/bg-hero.webp) ;
+}
+.box{
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    color: rgb(255, 171, 60);
+    margin-left: 40px;
+}
+.nav1{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: large;
+    
+}
+a:hover{
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#one{
+    color: rgb(219, 219, 107);
+}
+#two{
+    background-color: rgba(226, 126, 32, 0.952);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.col{
+    display: flex;
+}
+.col1{
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 70px;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    line-height: 40px;
+   
+    animation-name: translate;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    
+    transform: translateX(0px);
+
+}
+@keyframes translate{
+    0%{
+        transform: translateX(-800px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+    
+#three{
+    background-color: rgb(255, 115, 0);
+    height: 40px;
+    width: 150px;
+    font-size: small;
+    border: none;
+    border-radius: 8px;
+}
+p{
+    font-size: 15px;
+    line-height: 20px;
+}
+h1{
+    line-height: 50px;
+}
+.col2{
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes circle{
+     0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+
+
+.nav h1{
+   transition: transform 1s;
+}
+
+.nav h1:hover{
+    transform: scale(1.2);
+}
+
+
